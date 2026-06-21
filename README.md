@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> This repository fork is not meant for public use. Please refer to the official repo and documentation for the latest version and updates.
+>
+> Do not open issues or pull requests here. For any questions or contributions, please visit the original repository.
+
 <table>
   <tr>
     <td>
