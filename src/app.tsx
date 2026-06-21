@@ -18,6 +18,17 @@ import type { Editor } from "./workspace/Editor.js";
 import type { View } from "./workspace/Workspace.js";
 import type { Orientation } from "./workspace/Workspace.js";
 
+
+import { init } from '@plausible-analytics/tracker'
+
+init({
+  domain: 'ou0.cc',
+  endpoint: 'https://plausible.canine.tools/api/event',
+  captureOnLocalhost: false,
+  outboundLinks: true
+})
+
+
 export interface SafeAreaInsets {
   left: number;
   right: number;
